@@ -14,3 +14,9 @@ func main() {
 
 var firstName string = "Leonardo"
 var lastName string = "Ciccone"
+var dayOfBirth int = 19
+var monthOfBirth int = 12
+var yearOfBirth int = 2008
+var numberOfSiblings int = 2
+var heightInMeters float64 = 1.79
+var zodiacSign rune = 'S'
