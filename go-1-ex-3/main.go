@@ -17,10 +17,6 @@ func main() {
 	messageLog := fmt.Sprintln("the dice was rolled at", when)
 	fmt.Fprint(os.Stdout, messageLog)
 
-	if err := os.WriteFile("eyes.txt", []byte(messageEyes), 0o644); err != nil {
-		panic(err)
-	}
-	if err := os.WriteFile("dice.log", []byte(messageLog), 0o644); err != nil {
-		panic(err)
-	}
+	// TODO: how to write the output into eyes.txt and dice.log?
+	// go run ex3/main.go TODO
 }
